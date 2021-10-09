@@ -25,9 +25,9 @@ const ProjectBook: NextPage = () => {
             document.addEventListener("adobe_dc_view_sdk.ready", function(){ 
               var adobeDCView = new AdobeDC.View({clientId: "ccacdb747cb1437ba8b41572633d54b6", divId: "adobe-dc-view"});
               adobeDCView.previewFile({
-                content:{location: {url: "/zaza.pdf"}},
-                metaData:{fileName: "zaza.pdf"}
-              }, {});
+                content:{location: "public/zaza.pdf"},
+                metaData:{fileName: "Bodea Brochure.pdf"}
+              }, {embedMode: "IN_LINE"});
             });
             `}
           </Script>
