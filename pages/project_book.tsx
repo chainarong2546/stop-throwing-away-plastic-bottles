@@ -19,8 +19,9 @@ const ProjectBook: NextPage = () => {
         <Card.Header> รูปเล่มโครงการ </Card.Header>
         <Card.Body>
           <div id="adobe-dc-view"></div>
-          <Script src="https://documentcloud.adobe.com/view-sdk/main.js"></Script>
-          <Script type="text/javascript">{`
+          <Script src="https://documentcloud.adobe.com/view-sdk/main.js" />
+          <Script id="show-pdf">
+            {`
             document.addEventListener("adobe_dc_view_sdk.ready", function(){ 
               var adobeDCView = new AdobeDC.View({clientId: "ccacdb747cb1437ba8b41572633d54b6", divId: "adobe-dc-view"});
               adobeDCView.previewFile({
