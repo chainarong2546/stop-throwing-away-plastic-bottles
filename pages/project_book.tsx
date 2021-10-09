@@ -18,8 +18,18 @@ const ProjectBook: NextPage = () => {
       <Card>
         <Card.Header> รูปเล่มโครงการ </Card.Header>
         <Card.Body>
- 
-        <embed type="application/pdf" src="zaza" width="100%" height="685" />
+          <div id="adobe-dc-view"></div>
+          <Script src="https://documentcloud.adobe.com/view-sdk/main.js"></Script>
+          <Script type="text/javascript">{`
+            document.addEventListener("adobe_dc_view_sdk.ready", function(){ 
+              var adobeDCView = new AdobeDC.View({clientId: "ccacdb747cb1437ba8b41572633d54b6", divId: "adobe-dc-view"});
+              adobeDCView.previewFile({
+                content:{location: {url: "/zaza.pdf"}},
+                metaData:{fileName: "zaza.pdf"}
+              }, {});
+            });
+            `}
+          </Script>
         </Card.Body>
       </Card>
     </>
