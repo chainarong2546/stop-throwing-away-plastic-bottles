@@ -1,6 +1,6 @@
 import { NextPage } from 'next';
 import Head from 'next/head';
-import { Card, Image, Accordion } from 'react-bootstrap';
+import { Card, Image as BsImage, Accordion } from 'react-bootstrap';
 import My_Navbar from '../Navbar';
 
 const ProjectBook: NextPage = () => {
@@ -22,18 +22,18 @@ const ProjectBook: NextPage = () => {
             <Accordion.Item eventKey="0">
               <Accordion.Header> รูปเล่มโครงการ (ฉบับย่อ) </Accordion.Header>
               <Accordion.Body>
-                <Image src="/project_book/แบบฟอร์มฉบับย่อ โครงการรณรงค์ปลูกจิตสำนึก งดทิ้งขวดพลาสติก_Page_1.jpg" fluid />
-                <Image src="/project_book/แบบฟอร์มฉบับย่อ โครงการรณรงค์ปลูกจิตสำนึก งดทิ้งขวดพลาสติก_Page_2.jpg" fluid />
-                <Image src="/project_book/แบบฟอร์มฉบับย่อ โครงการรณรงค์ปลูกจิตสำนึก งดทิ้งขวดพลาสติก_Page_3.jpg" fluid />
+                <BsImage src="/project_book/แบบฟอร์มฉบับย่อ โครงการรณรงค์ปลูกจิตสำนึก งดทิ้งขวดพลาสติก_Page_1.jpg" fluid />
+                <BsImage src="/project_book/แบบฟอร์มฉบับย่อ โครงการรณรงค์ปลูกจิตสำนึก งดทิ้งขวดพลาสติก_Page_2.jpg" fluid />
+                <BsImage src="/project_book/แบบฟอร์มฉบับย่อ โครงการรณรงค์ปลูกจิตสำนึก งดทิ้งขวดพลาสติก_Page_3.jpg" fluid />
               </Accordion.Body>
             </Accordion.Item>
 
             <Accordion.Item eventKey="1">
               <Accordion.Header> พาวเวอร์พ้อย นำเสนอโครงการ </Accordion.Header>
               <Accordion.Body>
-                <Image src="/project_book/แบบฟอร์มฉบับย่อ โครงการรณรงค์ปลูกจิตสำนึก งดทิ้งขวดพลาสติก_Page_1.jpg" fluid />
-                <Image src="/project_book/แบบฟอร์มฉบับย่อ โครงการรณรงค์ปลูกจิตสำนึก งดทิ้งขวดพลาสติก_Page_2.jpg" fluid />
-                <Image src="/project_book/แบบฟอร์มฉบับย่อ โครงการรณรงค์ปลูกจิตสำนึก งดทิ้งขวดพลาสติก_Page_3.jpg" fluid />
+                <BsImage src="/project_book/แบบฟอร์มฉบับย่อ โครงการรณรงค์ปลูกจิตสำนึก งดทิ้งขวดพลาสติก_Page_1.jpg" fluid />
+                <BsImage src="/project_book/แบบฟอร์มฉบับย่อ โครงการรณรงค์ปลูกจิตสำนึก งดทิ้งขวดพลาสติก_Page_2.jpg" fluid />
+                <BsImage src="/project_book/แบบฟอร์มฉบับย่อ โครงการรณรงค์ปลูกจิตสำนึก งดทิ้งขวดพลาสติก_Page_3.jpg" fluid />
               </Accordion.Body>
             </Accordion.Item>
           </Accordion>

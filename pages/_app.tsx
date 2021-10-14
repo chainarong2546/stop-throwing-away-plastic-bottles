@@ -3,7 +3,7 @@ import '../styles/globals.css';
 import type { AppProps } from 'next/app';
 import { SSRProvider } from '@react-aria/ssr';
 import Head from 'next/head';
-import {Container, Image} from 'react-bootstrap';
+import {Container, Image as BsImage} from 'react-bootstrap';
 
 function MyApp({ Component, pageProps }: AppProps) {
 
@@ -14,7 +14,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta name="viewport" content="width=device-width" />
       </Head>
       <Container fluid="md">
-        <Image src="/header_img.jpg" alt="header_img" fluid style={{borderRadius:'10px', marginBottom:'5px'}}/>
+        <BsImage src="/header_img.jpg" alt="header_img" fluid style={{borderRadius:'10px', marginBottom:'5px'}}/>
         <Component {...pageProps} />
       </Container>
     </SSRProvider>

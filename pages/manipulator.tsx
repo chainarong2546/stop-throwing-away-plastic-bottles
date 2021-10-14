@@ -1,6 +1,6 @@
 import { NextPage } from 'next';
 import Head from 'next/head';
-import { Card, Table, Image, Row, Col } from 'react-bootstrap';
+import { Card, Table, Image as BsImage } from 'react-bootstrap';
 
 import My_Navbar from '../Navbar';
 
@@ -29,7 +29,7 @@ const Manipulator: NextPage = () => {
             <tbody>
               <tr>
                 <td> 1 </td>
-                <td> <Image src="/manipulator/รูปประจำตัว ชัยณรงค์.png" style={{width:'180px'}} rounded/> </td>
+                <td> <BsImage src="/manipulator/รูปประจำตัว ชัยณรงค์.png" style={{width:'180px'}} rounded/> </td>
                 <td>
                   <b>ชื่อ :</b> นายชัยณรงค์ คงพล <br/>
                   <b>รหัสนักศึกษา :</b> 116410400146-9 <br/>
@@ -37,7 +37,7 @@ const Manipulator: NextPage = () => {
               </tr>
               <tr>
                 <td> 2 </td>
-                <td> <Image src="/manipulator/รูปประจำตัว ธิติวุฒิ.png" style={{width:'180px'}} rounded/> </td>
+                <td> <BsImage src="/manipulator/รูปประจำตัว ธิติวุฒิ.png" style={{width:'180px'}} rounded/> </td>
                 <td>
                   <b>ชื่อ :</b> นายธิติวุฒิ ศรีจินดา <br/>
                   <b>รหัสนักศึกษา :</b> 116410400549-4 <br/>
@@ -45,7 +45,7 @@ const Manipulator: NextPage = () => {
               </tr>
               <tr>
                 <td> 3 </td>
-                <td> <Image src="/manipulator/รูปประจำตัว มนัสวี.png" style={{width:'180px'}} rounded/> </td>
+                <td> <BsImage src="/manipulator/รูปประจำตัว มนัสวี.png" style={{width:'180px'}} rounded/> </td>
                 <td>
                   <b>ชื่อ :</b> นายมนัสวี สามลา <br/>
                   <b>รหัสนักศึกษา :</b> 116410417008-2 <br/>
@@ -53,7 +53,7 @@ const Manipulator: NextPage = () => {
               </tr>
               <tr>
                 <td> 4 </td>
-                <td> <Image src="/manipulator/รูปประจำตัว วรพล.png" style={{width:'180px'}} rounded/> </td>
+                <td> <BsImage src="/manipulator/รูปประจำตัว วรพล.png" style={{width:'180px'}} rounded/> </td>
                 <td>
                   <b>ชื่อ :</b> นายวรพล จัดเขตรกรรม <br/>
                   <b>รหัสนักศึกษา :</b> 116410400670-8 <br/>
@@ -61,7 +61,7 @@ const Manipulator: NextPage = () => {
               </tr>
               <tr>
                 <td> 5 </td>
-                <td> <Image src="/manipulator/รูปประจำตัว อภิชยา.png" style={{width:'180px'}} rounded/> </td>
+                <td> <BsImage src="/manipulator/รูปประจำตัว อภิชยา.png" style={{width:'180px'}} rounded/> </td>
                 <td>
                   <b>ชื่อ :</b> นาวสาวอภิชญา นวลแก้ว <br/>
                   <b>รหัสนักศึกษา :</b> 116410400514-8 <br/>

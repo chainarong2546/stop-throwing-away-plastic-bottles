@@ -1,6 +1,6 @@
 import { NextPage } from 'next';
 import Head from 'next/head';
-import { Card, Image } from 'react-bootstrap';
+import { Card, Image as BsImage } from 'react-bootstrap';
 
 import My_Navbar from '../Navbar';
 
@@ -19,7 +19,7 @@ const Home: NextPage = () => {
         <Card.Header> หน้าหลัก </Card.Header>
         <Card.Body>
           <Card.Text>
-          <Image src="/home/messageImage_1633758471594.jpg" fluid rounded/>
+          <BsImage src="/home/messageImage_1633758471594.jpg" fluid rounded/>
           </Card.Text>
         </Card.Body>
       </Card>
