@@ -1,12 +1,24 @@
 {
   "name": "stop-throwing-away-plastic-bottles",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "next.config.js",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chainarong2546/stop-throwing-away-plastic-bottles.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chainarong2546/stop-throwing-away-plastic-bottles/issues"
   },
   "dependencies": {
     "bootstrap": "^5.1.2",
@@ -20,5 +32,6 @@
     "eslint": "7.32.0",
     "eslint-config-next": "11.1.2",
     "typescript": "4.4.3"
-  }
+  },
+  "homepage": "https://github.com/chainarong2546/stop-throwing-away-plastic-bottles#readme"
 }

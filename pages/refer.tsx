@@ -16,12 +16,20 @@ const Refer: NextPage = () => {
       {My_Navbar("refer")}
 
       <Card>
-        <Card.Header> เอกสารอ้างอิง </Card.Header>
+        <Card.Header> ข้อมูลอ้างอิง </Card.Header>
         <Card.Body>
-          <Card.Title> ... </Card.Title>
-          <Card.Text>
-            ...
-          </Card.Text>
+          <Card.Title> ขอบคุณข้อมูลดีๆ จากเว็บไซต์เหล่านี้ </Card.Title>
+            <br/>
+            <li>
+              <a href="https://www.trueplookpanya.com/knowledge/content/69429/-diyhom-diy-" target="_blank">​ ไอเดีย DIY งานประดิษฐ์ จากขวดพลาสติก </a>
+            </li>
+            <li>
+              <a href="https://www.akerufeed.com/trend-life/25-diy-recycle-plastice-bottle" target="_blank">​ แชร์ 25 ไอเดีย DIY ขวดพลาสติกเก่าเป็นของสารพัดประโยชน์ </a>
+            </li>
+            <li>
+              <a href="https://tonghengplastic.com/%E0%B8%A3%E0%B8%B5%E0%B9%84%E0%B8%8B%E0%B9%80%E0%B8%84%E0%B8%B4%E0%B8%A5%E0%B8%82%E0%B8%A7%E0%B8%94%E0%B8%9E%E0%B8%A5%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%B4%E0%B8%81/" target="_blank">​ สิ่งประดิษฐ์จากขวดน้ำพลาสติก - 10 ไอเดียรีไซเคิลขวดพลาสติกสุดสร้างสรรค์ </a>
+            </li>
+
         </Card.Body>
       </Card>
     </>

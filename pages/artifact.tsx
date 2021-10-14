@@ -20,7 +20,7 @@ const Artifact: NextPage = () => {
         <Card.Body>
           <Card.Title> (แนะนำ) สิ่งประดิษฐ์จากขวดพลาสติก ที่น่าสนใจ </Card.Title>
           <Card.Text>
-            ...
+          https://www.trueplookpanya.com/knowledge/content/69429/-diyhom-diy-
           </Card.Text>
         </Card.Body>
       </Card>

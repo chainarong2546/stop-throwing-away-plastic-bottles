@@ -1,7 +1,6 @@
 import { NextPage } from 'next';
 import Head from 'next/head';
-import Script from 'next/script';
-import { Card } from 'react-bootstrap';
+import { Card, Image, Accordion } from 'react-bootstrap';
 import My_Navbar from '../Navbar';
 
 const ProjectBook: NextPage = () => {
@@ -18,19 +17,27 @@ const ProjectBook: NextPage = () => {
       <Card>
         <Card.Header> รูปเล่มโครงการ </Card.Header>
         <Card.Body>
-          <div id="adobe-dc-view"></div>
-          <Script src="https://documentcloud.adobe.com/view-sdk/main.js" />
-          <Script id="show-pdf">
-            {`
-            document.addEventListener("adobe_dc_view_sdk.ready", function(){ 
-              var adobeDCView = new AdobeDC.View({clientId: "ccacdb747cb1437ba8b41572633d54b6", divId: "adobe-dc-view"});
-              adobeDCView.previewFile({
-                content:{location: "public/zaza.pdf"},
-                metaData:{fileName: "Bodea Brochure.pdf"}
-              }, {embedMode: "IN_LINE"});
-            });
-            `}
-          </Script>
+
+          <Accordion>
+            <Accordion.Item eventKey="0">
+              <Accordion.Header> รูปเล่มโครงการ (ฉบับย่อ) </Accordion.Header>
+              <Accordion.Body>
+                <Image src="/project_book/แบบฟอร์มฉบับย่อ โครงการรณรงค์ปลูกจิตสำนึก งดทิ้งขวดพลาสติก_Page_1.jpg" fluid />
+                <Image src="/project_book/แบบฟอร์มฉบับย่อ โครงการรณรงค์ปลูกจิตสำนึก งดทิ้งขวดพลาสติก_Page_2.jpg" fluid />
+                <Image src="/project_book/แบบฟอร์มฉบับย่อ โครงการรณรงค์ปลูกจิตสำนึก งดทิ้งขวดพลาสติก_Page_3.jpg" fluid />
+              </Accordion.Body>
+            </Accordion.Item>
+
+            <Accordion.Item eventKey="1">
+              <Accordion.Header> พาวเวอร์พ้อย นำเสนอโครงการ </Accordion.Header>
+              <Accordion.Body>
+                <Image src="/project_book/แบบฟอร์มฉบับย่อ โครงการรณรงค์ปลูกจิตสำนึก งดทิ้งขวดพลาสติก_Page_1.jpg" fluid />
+                <Image src="/project_book/แบบฟอร์มฉบับย่อ โครงการรณรงค์ปลูกจิตสำนึก งดทิ้งขวดพลาสติก_Page_2.jpg" fluid />
+                <Image src="/project_book/แบบฟอร์มฉบับย่อ โครงการรณรงค์ปลูกจิตสำนึก งดทิ้งขวดพลาสติก_Page_3.jpg" fluid />
+              </Accordion.Body>
+            </Accordion.Item>
+          </Accordion>
+
         </Card.Body>
       </Card>
     </>

@@ -1,6 +1,6 @@
 import { NextPage } from 'next';
 import Head from 'next/head';
-import { Card } from 'react-bootstrap';
+import { Card, Table } from 'react-bootstrap';
 
 import My_Navbar from '../Navbar';
 
@@ -18,10 +18,34 @@ const Download: NextPage = () => {
       <Card>
         <Card.Header> ดาวน์โหลดเอกสาร </Card.Header>
         <Card.Body>
-          <Card.Title> ... </Card.Title>
-          <Card.Text>
-            ...
-          </Card.Text>
+          
+          <Table striped bordered hover>
+            <thead>
+              <tr>
+                <th> รายการ </th>
+                <th> ดาวน์โหลด </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td> ป้ายรณรงค์ - ทุกคนร่วมใจ งดทิ้งขวดพลาสติก </td>
+                <td> <a className="btn btn-success" href="/download/ป้าย งดทิ้งขวดพลาสติก.jpg" download> ดาวน์โหลด JPG </a> </td>
+              </tr>
+              <tr>
+                <td> ป้ายรณรงค์ - รู้จักใช้รู้จักทิ้ง กรุณาทิ้งขยะให้ถูกประเภท </td>
+                <td> <a className="btn btn-success" href="/download/ป้าย รู้จักใช้รู้จักทิ้ง.jpg" download> ดาวน์โหลด JPG </a> </td>
+              </tr>
+              <tr>
+                <td> ใบปลิว - โครงการรณรงค์ปลูกจิตสำนึก งดทิ้งขวดพลาสติก </td>
+                <td> <a className="btn btn-success" href="/download/ใบปลิว.jpg" download> ดาวน์โหลด JPG </a> </td>
+              </tr>
+              <tr>
+                <td> รูปเล่ม - โครงการรณรงค์ฯ (ฉบับย่อ) </td>
+                <td> <a className="btn btn-success" href="/download/แบบฟอร์มฉบับย่อ โครงการรณรงค์ปลูกจิตสำนึก งดทิ้งขวดพลาสติก.pdf" download> ดาวน์โหลด PDF </a> </td>
+              </tr>
+            </tbody>
+          </Table>
+
         </Card.Body>
       </Card>
     </>
