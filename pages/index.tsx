@@ -1,6 +1,7 @@
 import { NextPage } from 'next';
 import Head from 'next/head';
-import { Card, Image as BsImage } from 'react-bootstrap';
+import Link from 'next/link';
+import { Card, Image as BsImage, Button, Container, Row, Col } from 'react-bootstrap';
 
 import My_Navbar from '../Navbar';
 
@@ -19,8 +20,21 @@ const Home: NextPage = () => {
         <Card.Header> หน้าหลัก </Card.Header>
         <Card.Body>
           <Card.Text>
-          <BsImage src="/home/messageImage_1633758471594.jpg" fluid rounded/>
+            <h5>แบบประเมิณโครงการ</h5>
+            ขอความกรุณาท่านที่เข้าชมเว็บไซต์ กรอกแบบประเมิณโครงการเพื่อเป็นข้อมูลสำหรับประเมิณความสำเร็จในการทำโครงการ <br/>
+            <Link href="/assessment_form" passHref>
+              <Button> คลิกเพื่อทำแบบประเมิณ </Button>
+            </Link>
           </Card.Text>
+          <hr/>
+          <Row>
+            <Col md={8} style={{margin:'auto'}}>
+            <BsImage src="/home/01.webp" fluid rounded/>
+            <BsImage src="/home/02.webp" fluid rounded/>
+            <BsImage src="/home/03.webp" fluid rounded/>
+            </Col>
+          </Row>
+
         </Card.Body>
       </Card>
     </>
