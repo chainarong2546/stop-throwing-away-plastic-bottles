@@ -22,9 +22,9 @@ const ProjectBook: NextPage = () => {
             <Accordion.Item eventKey="0">
               <Accordion.Header> รูปเล่มโครงการ (ฉบับย่อ) </Accordion.Header>
               <Accordion.Body>
-                <BsImage src="/project_book/แบบฟอร์มฉบับย่อ โครงการรณรงค์ปลูกจิตสำนึก งดทิ้งขวดพลาสติก_Page_1.jpg" fluid />
-                <BsImage src="/project_book/แบบฟอร์มฉบับย่อ โครงการรณรงค์ปลูกจิตสำนึก งดทิ้งขวดพลาสติก_Page_2.jpg" fluid />
-                <BsImage src="/project_book/แบบฟอร์มฉบับย่อ โครงการรณรงค์ปลูกจิตสำนึก งดทิ้งขวดพลาสติก_Page_3.jpg" fluid />
+                <BsImage src="/project_book/01/project book_Page_1.webp" fluid style={{marginBottom: '2px'}} />
+                <BsImage src="/project_book/01/project book_Page_2.webp" fluid style={{marginBottom: '2px'}} />
+                <BsImage src="/project_book/01/project book_Page_3.webp" fluid style={{marginBottom: '2px'}} />
               </Accordion.Body>
             </Accordion.Item>
             </Accordion>
@@ -33,9 +33,32 @@ const ProjectBook: NextPage = () => {
             <Accordion.Item eventKey="1">
               <Accordion.Header> พาวเวอร์พ้อย นำเสนอโครงการ </Accordion.Header>
               <Accordion.Body>
-                <BsImage src="/project_book/แบบฟอร์มฉบับย่อ โครงการรณรงค์ปลูกจิตสำนึก งดทิ้งขวดพลาสติก_Page_1.jpg" fluid />
-                <BsImage src="/project_book/แบบฟอร์มฉบับย่อ โครงการรณรงค์ปลูกจิตสำนึก งดทิ้งขวดพลาสติก_Page_2.jpg" fluid />
-                <BsImage src="/project_book/แบบฟอร์มฉบับย่อ โครงการรณรงค์ปลูกจิตสำนึก งดทิ้งขวดพลาสติก_Page_3.jpg" fluid />
+                <BsImage src="/project_book/02/project pptx_Page_01.webp" fluid style={{marginBottom: '2px'}} />
+                <BsImage src="/project_book/02/project pptx_Page_02.webp" fluid style={{marginBottom: '2px'}} />
+                <BsImage src="/project_book/02/project pptx_Page_03.webp" fluid style={{marginBottom: '2px'}} />
+                <BsImage src="/project_book/02/project pptx_Page_04.webp" fluid style={{marginBottom: '2px'}} />
+                <BsImage src="/project_book/02/project pptx_Page_05.webp" fluid style={{marginBottom: '2px'}} />
+                <BsImage src="/project_book/02/project pptx_Page_06.webp" fluid style={{marginBottom: '2px'}} />
+                <BsImage src="/project_book/02/project pptx_Page_07.webp" fluid style={{marginBottom: '2px'}} />
+                <BsImage src="/project_book/02/project pptx_Page_08.webp" fluid style={{marginBottom: '2px'}} />
+                <BsImage src="/project_book/02/project pptx_Page_09.webp" fluid style={{marginBottom: '2px'}} />
+                <BsImage src="/project_book/02/project pptx_Page_10.webp" fluid style={{marginBottom: '2px'}} />
+                <BsImage src="/project_book/02/project pptx_Page_11.webp" fluid style={{marginBottom: '2px'}} />
+                <BsImage src="/project_book/02/project pptx_Page_12.webp" fluid style={{marginBottom: '2px'}} />
+                <BsImage src="/project_book/02/project pptx_Page_13.webp" fluid style={{marginBottom: '2px'}} />
+                <BsImage src="/project_book/02/project pptx_Page_14.webp" fluid style={{marginBottom: '2px'}} />
+                <BsImage src="/project_book/02/project pptx_Page_15.webp" fluid style={{marginBottom: '2px'}} />
+                <BsImage src="/project_book/02/project pptx_Page_16.webp" fluid style={{marginBottom: '2px'}} />
+                <BsImage src="/project_book/02/project pptx_Page_17.webp" fluid style={{marginBottom: '2px'}} />
+                <BsImage src="/project_book/02/project pptx_Page_18.webp" fluid style={{marginBottom: '2px'}} />
+                <BsImage src="/project_book/02/project pptx_Page_19.webp" fluid style={{marginBottom: '2px'}} />
+                <BsImage src="/project_book/02/project pptx_Page_20.webp" fluid style={{marginBottom: '2px'}} />
+                <BsImage src="/project_book/02/project pptx_Page_21.webp" fluid style={{marginBottom: '2px'}} />
+                <BsImage src="/project_book/02/project pptx_Page_22.webp" fluid style={{marginBottom: '2px'}} />
+                <BsImage src="/project_book/02/project pptx_Page_23.webp" fluid style={{marginBottom: '2px'}} />
+                <BsImage src="/project_book/02/project pptx_Page_24.webp" fluid style={{marginBottom: '2px'}} />
+                <BsImage src="/project_book/02/project pptx_Page_25.webp" fluid style={{marginBottom: '2px'}} />
+                <BsImage src="/project_book/02/project pptx_Page_26.webp" fluid style={{marginBottom: '2px'}} />
               </Accordion.Body>
             </Accordion.Item>
           </Accordion>

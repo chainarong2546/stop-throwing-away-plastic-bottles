@@ -1,6 +1,6 @@
 import { NextPage } from 'next';
 import Head from 'next/head';
-import { Card } from 'react-bootstrap';
+import { Card, Image as BsImage, Table, Row, Col } from 'react-bootstrap';
 
 import My_Navbar from '../Navbar';
 
@@ -18,12 +18,229 @@ const SeparateBottles: NextPage = () => {
       <Card>
         <Card.Header> วิธีแยกพลาสติก </Card.Header>
         <Card.Body>
-          <Card.Title> วิธีแยกพลาสติกขายง่าย ๆ สร้างรายได้ </Card.Title>
-          <Card.Text>
-            https://hilight.kapook.com/view/203772
-            <br/>
-            https://hilight.kapook.com/view/192733
-          </Card.Text>
+          <br />
+          <h3> แยกพลาสติกขายง่าย ๆ สร้างรายได้ </h3>
+          <BsImage src="/separate_bottles/01.png" fluid /><br /><br />
+          <p>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;พลาสติกที่ขายได้ หรือพลาสติกรีไซเคิล จัดอยู่ในกลุ่มเทอร์โมพลาสติก ที่กำหนดขึ้นโดยสมาคมอุตสาหกรรมพลาสติกแห่งสหรัฐอเมริกา (The Society of the Plastics Industry, Inc.) มีทั้งหมด 7 ชนิด เพื่อให้ง่ายต่อการคัดแยกและนำไปแปรสภาพอย่างถูกต้องที่สุด ดังนี้<br /><br />
+            <b>1. โพลีเอทิลีน เทอร์ฟะธาเลต (PET) :</b> พลาสติกใส เนื้อเหนียว แข็งแรง ไม่แตกง่าย เช่น ขวดน้ำดื่ม ขวดน้ำมันพืช<br />
+            <b>2. โพลีเอทิลีนความหนาแน่นสูง (HDPE) :</b> พลาสติกขุ่น ทึบ เนื้อหนาและเหนียว ทนกรด ทนด่าง ความหนาแน่นสูง เช่น ขวดน้ำกลั่น ขวดแชมพู ถุงพลาสติก ถุงขยะ<br />
+            <b>3. โพลีไวนิลคลอไรด์ (PVC) :</b> มีความแข็งแรงมาก ไอน้ำและอากาศซึมผ่านได้พอสมควร ป้องกันไขมันได้ดี เช่น ท่อประปา ฉนวนหุ้มสายไฟ<br />
+            <b>4. โพลีเอทิลีนความหนาแน่นต่ำ (LDPE) :</b> โปร่งแสง มีปริมาตรสูงแต่ความหนาแน่นต่ำ เช่น ถุงใส่ของ ถุงซิปล็อก<br />
+            <b>5. โพลีโพรพิลีน (PP) :</b> เบาที่สุด แต่มีความแข็งแรง ทนทานต่อแรงกระแทก และความร้อนสูง เช่น ฝาขวด ขวดใส่ยา<br />
+            <b>6. โพลีสไตรีน (PS) :</b> โปร่งใส เปราะบาง แต่ทนต่อกรดและด่าง ผลิตเป็นรูปต่าง ๆ ได้ง่าย เช่น ถ้วย จาน ชาม<br />
+            <b>7. พลาสติกอื่น ๆ (Other) :</b> พลาสติกที่ไม่ใช่ 6 ชนิดแรก เช่น โพลีคาร์บอเนต (Polycarbonate : PC) เป็นพลาสติกโปร่งใส มีความแข็งแรง ทนต่อความร้อน กรด และแรงกระแทกได้ดี  เช่น ปากกา ขวดนมเด็ก หมวกนิรภัย<br />
+          </p>
+          <hr/>
+
+          <h4> พลาสติกแบบไหนขายได้ราคาดีที่สุด </h4>
+          <p> อ้างอิงข้อมูลจาก สมาคมรีไซเคิลขยะและรับซื้อของเก่า ณ วันทีี่ 19 มิ.ย. 64 </p>
+          <Row>
+            <Col lg={8} style={{margin:'auto'}}>
+              <Table striped bordered hover>
+                <thead>
+                  <tr>
+                    <th> รายการสินค้า </th>
+                    <th> ราคาวันนี้ (บาท) </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td> PET ขวดใสมีฉลาก </td>
+                    <td> 9.8 </td>
+                  </tr>
+                  <tr>
+                    <td> PET ขวดใสไม่มีฉลาก </td>
+                    <td> 11.2 </td>
+                  </tr>
+                  <tr>
+                    <td> PET ถาดใส (ไม่มีสติ๊กเกอร์ เมจิก) </td> 
+                    <td> 7 </td>
+                  </tr>  
+                  <tr>
+                    <td> PET ขวดสไปรท์ไม่มีฉลาก </td>
+                    <td> 4.2 </td> 
+                  </tr>  
+                  <tr>
+                    <td> PET สายรัดโปร่งแสง </td>
+                    <td> 2.8 </td>
+                  </tr> 
+                  <tr>
+                    <td> PET หลอดพรีฟอร์มสีฟ้า </td>
+                    <td> 7.7 </td>
+                  </tr>
+                  <tr>
+                    <td> PET หลอดพรีฟอร์มสีเข้ม ชา </td>
+                    <td> 1.05 </td>
+                  </tr>
+                  <tr>
+                    <td> PET หลอดพรีฟอร์มใส </td>
+                    <td> 9.8 </td>
+                  </tr>  
+                  <tr>
+                    <td> PVC ท่อสีฟ้า/เหลือง </td>
+                    <td> 3.5 </td> 
+                  </tr>  
+                  <tr>
+                    <td> PVC ท่อสีเทา </td>
+                    <td> 0.21 </td>
+                  </tr>  
+                  <tr>
+                    <td> PVC </td>
+                    <td> 1.4 </td>
+                  </tr>
+                  <tr>
+                    <td> PVC รองเท้าบูทคละสี </td>
+                    <td> 3.5 </td>
+                  </tr>
+                  <tr>
+                    <td> PVC สายยางใส </td>
+                    <td> 4.2 </td>
+                  </tr>
+                  <tr>
+                    <td> PVC สายยางทึบ </td>
+                    <td> 2.1 </td>
+                  </tr>
+                  <tr>
+                    <td> LDPE ท่อดำคาดฟ้า ส้ม </td>
+                    <td> 0 </td>
+                  </tr>
+                  <tr>
+                    <td> LDPE ขวดน้ำเกลือไม่ตัดจุก </td>
+                    <td> 3.5 </td>
+                  </tr>
+                  <tr> 
+                    <td> LDPE ขวดน้ำเกลือตัดจุกแล้ว </td>
+                    <td> 7 </td>
+                  </tr>
+                  <tr>
+                    <td> PP ขวดน้ำเกลือตัดจุก </td>
+                    <td> 0 </td>
+                  </tr>
+                  <tr>
+                    <td> ABS </td>
+                    <td> 0 </td>
+                  </tr>
+                  <tr>
+                    <td> PP ฟิวเจอร์บอร์ด </td>
+                    <td> 4.2 </td>
+                  </tr>
+                  <tr>
+                    <td> PP สายรัดสีทึบมีสกรีน </td>
+                    <td> 2.1 </td>
+                  </tr>
+                  <tr>
+                    <td> PP สายรัดสีทึบไม่สกรีน </td>
+                    <td> 3.5 </td>
+                  </tr>
+                  <tr>
+                    <td> PP หลอด </td>
+                    <td> 2.1 </td>
+                  </tr>
+                  <tr>
+                    <td> PP ถุงใส </td>
+                    <td> 14 </td>
+                  </tr>
+                  <tr>
+                    <td> PS </td>
+                    <td> 4.2 </td>
+                  </tr>
+                  <tr>
+                    <td> พลาสติกรวม </td>
+                    <td> 0 </td>
+                  </tr>
+                  <tr>
+                    <td> PET ขวดสีเขียวสะท้อนแสงไม่มีฉลาก </td>
+                    <td> 0.35 </td>
+                  </tr>
+                  <tr>
+                    <td> PET ขวดสีอื่นสะท้อนแสงไม่มีฉลาก </td>
+                    <td> 2.1 </td>
+                  </tr>
+                  <tr>
+                    <td> PP แก้วใส </td>
+                    <td> 11.2 </td>
+                  </tr>
+                  <tr>
+                    <td> PP ชา </td>
+                    <td> 4.9 </td>
+                  </tr>
+                  <tr>
+                    <td> PP ถุงสี </td>
+                    <td> 3.5 </td>
+                  </tr>
+                  <tr>
+                    <td> LDPE ถุงใส1 </td>
+                    <td> 11.2 </td>
+                  </tr>
+                  <tr>
+                    <td> LDPE ถุงใส2 </td>
+                    <td> 9.8 </td>
+                  </tr>
+                  <tr>
+                    <td> LDPE ถุงชา </td>
+                    <td> 7.7 </td>
+                  </tr>
+                  <tr>
+                    <td> HDPE ถุงใส1 </td>
+                    <td> 0.7 </td>
+                  </tr>
+                  <tr>
+                    <td> HDPE ถุงใส2 </td>
+                    <td> 0.35 </td>
+                  </tr>
+                  <tr>
+                    <td> HDPE ถุงชา </td>
+                    <td> 7 </td>
+                  </tr>
+                  <tr>
+                    <td> LDPE ถุงสี </td>
+                    <td> 0 </td>
+                  </tr>
+                  <tr>
+                    <td> HDPE ถุงสี </td>
+                    <td> 5.6 </td>
+                  </tr>
+                  <tr>
+                    <td> HDPE-LL ถุง </td>
+                    <td> 7 </td>
+                  </tr>
+                  <tr>
+                    <td> PP ตะกร้าผลไม้ใส </td>
+                    <td> 11.2 </td>
+                  </tr>
+                  <tr>
+                    <td> PP ตะกร้าผลไม้สี </td>
+                    <td> 7 </td>
+                  </tr>
+                  <tr>
+                    <td> LDPE จุกน้ำปลา  </td>
+                    <td> 1.75 </td>
+                  </tr>
+                  <tr>
+                    <td> PC </td>
+                    <td> 0 </td>
+                  </tr>
+                  <tr>
+                    <td> POM </td>
+                    <td> 0 </td>
+                  </tr>
+                  <tr>
+                    <td> PA </td>
+                    <td> 0 </td>
+                  </tr>
+                  <tr>
+                    <td> HIPS </td>
+                    <td> 8.4 </td>
+                  </tr>
+                  <tr>
+                    <td> PET ขอบถาด </td>
+                    <td> 7.7 </td> 
+                  </tr>
+                </tbody>
+              </Table>
+            </Col>
+          </Row>
         </Card.Body>
       </Card>
     </>

@@ -21,13 +21,24 @@ const Refer: NextPage = () => {
           <Card.Title> ขอบคุณข้อมูลดีๆ จากเว็บไซต์เหล่านี้ </Card.Title>
             <br/>
             <li>
-              <a href="https://www.trueplookpanya.com/knowledge/content/69429/-diyhom-diy-" target="_blank" rel="noreferrer">​ ไอเดีย DIY งานประดิษฐ์ จากขวดพลาสติก </a>
+              <a href="https://www.trueplookpanya.com/knowledge/content/69429/-diyhom-diy-" target="_blank" rel="noreferrer">​
+                ไอเดีย DIY งานประดิษฐ์ จากขวดพลาสติก
+              </a>
             </li>
             <li>
-              <a href="https://www.akerufeed.com/trend-life/25-diy-recycle-plastice-bottle" target="_blank" rel="noreferrer">​ แชร์ 25 ไอเดีย DIY ขวดพลาสติกเก่าเป็นของสารพัดประโยชน์ </a>
+              <a href="https://tonghengplastic.com/%E0%B8%A3%E0%B8%B5%E0%B9%84%E0%B8%8B%E0%B9%80%E0%B8%84%E0%B8%B4%E0%B8%A5%E0%B8%82%E0%B8%A7%E0%B8%94%E0%B8%9E%E0%B8%A5%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%B4%E0%B8%81/" target="_blank" rel="noreferrer">​
+                สิ่งประดิษฐ์จากขวดน้ำพลาสติก - 10 ไอเดียรีไซเคิลขวดพลาสติกสุดสร้างสรรค์
+              </a>
             </li>
             <li>
-              <a href="https://tonghengplastic.com/%E0%B8%A3%E0%B8%B5%E0%B9%84%E0%B8%8B%E0%B9%80%E0%B8%84%E0%B8%B4%E0%B8%A5%E0%B8%82%E0%B8%A7%E0%B8%94%E0%B8%9E%E0%B8%A5%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%B4%E0%B8%81/" target="_blank" rel="noreferrer">​ สิ่งประดิษฐ์จากขวดน้ำพลาสติก - 10 ไอเดียรีไซเคิลขวดพลาสติกสุดสร้างสรรค์ </a>
+              <a href="https://www.junkbank.co/#/" target="_blank" rel="noreferrer">​
+                สมาคมรีไซเคิลขยะและรับซื้อของเก่า
+              </a>
+            </li>
+            <li>
+              <a href="https://hilight.kapook.com/view/203772" target="_blank" rel="noreferrer">​
+                วิธีแยกพลาสติกขายง่าย ๆ สร้างรายได้ยุค New Normal
+              </a>
             </li>
 
         </Card.Body>
